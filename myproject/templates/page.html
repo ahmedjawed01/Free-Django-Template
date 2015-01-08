@@ -1,0 +1,11 @@
+{% extends "base_djangotutsme.html" %}
+
+
+{% block content %}
+
+<h2> {{data.title}}</h2>
+
+{{data.content|safe}}
+
+
+{% endblock content %}
